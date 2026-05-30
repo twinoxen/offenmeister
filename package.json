@@ -1,0 +1,34 @@
+{
+  "name": "offenmeister",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offenmeister — learn languages by filling in the blank, in context, with spaced repetition.",
+  "scripts": {
+    "dev": "nuxt dev --dotenv .env.local",
+    "dev:convex": "convex dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "seed": "convex run seed:run",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@convex-dev/better-auth": "^0.12.2",
+    "better-auth": "1.6.12",
+    "better-convex-nuxt": "^0.3.4",
+    "convex": "^1.39.1",
+    "nuxt": "4.4.6",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.15.2",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.7"
+  }
+}

@@ -1,0 +1,20 @@
+# Nuxt
+.nuxt
+.output
+.data
+.nitro
+.cache
+dist
+
+# Node
+node_modules
+*.log
+.DS_Store
+
+# Local env & Convex local deployment state
+.env
+.env.local
+.env.*.local
+
+# Convex
+.convex
